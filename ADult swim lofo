@@ -1,0 +1,66 @@
+import turtle
+
+t = turtle.Turtle()
+
+t.speed = 30
+t.pensize(40)
+
+#left bracket
+t.penup()
+t.setpos(-200, 150)
+t.pendown()
+
+t.forward(-170)
+t.right(90)
+t.forward(450)
+t.right(90)
+t.forward(-170)
+
+#letter a
+t.penup()
+t.setpos(-250,-215)
+t.pendown()
+
+t.right(180)
+for i in (1,2,3,4):
+    t.forward(150)
+    t.left(90)
+
+t.penup()
+t.setpos(-100,-65)
+t.pendown()
+
+t.left(90)
+t.forward(115)
+t.left(90)
+t.forward(125)
+
+#letter s
+t.penup()
+t.setpos(-25,-215)
+t.pendown()
+
+t.right(180)
+t.forward(150)
+t.left(90)
+t.forward(132.5)
+t.left(90)
+t.forward(150)
+t.right(90)
+t.forward(132.5)
+t.right(90)
+t.forward(150)
+
+#right bracket
+t.penup()
+t.setpos(100,150)
+t.pendown()
+
+t.forward(170)
+t.right(-90)
+t.forward(-450)
+t.right(-90)
+t.forward(170)
+
+#done!!!!
+
